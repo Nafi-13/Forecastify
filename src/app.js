@@ -12,8 +12,8 @@ const port = process.env.PORT || 3000
 
 // Define paths for Express Config
 const publicDirectoryPath= path.join(__dirname,'../public')
-const viewsPath=path.join(__dirname,'../templates/views')
-const partialPath=path.join(__dirname,'../templates/partials')
+const viewsPath=path.join(__dirname,'../Templates/views')
+const partialPath=path.join(__dirname,'../Templates/partials')
 
 
 // Setup handlebars engine and views location
